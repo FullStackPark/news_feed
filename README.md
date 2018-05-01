@@ -125,6 +125,35 @@ cd utils/ ; python send_email.py
 
 
 
+---
+
+
+1. 第一集：项目整体介绍，如何填写简历
+
+2. 第二集：项目中如何从 GitHub 检入检出
+
+3. 第三集：MySQL 基本使用
+
+4. 第四集：打开项目->修改 config.py ->安装库 ->运行 modles.py -> app.py -> 
+
+http://127.0.0.1:8888/register
+
+info_engine.py
+
+
+错误解决：
+
+导包的问题
+
+解压 NewsFeed 需要的包
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient
+
+在 site-packages 下面运行 pip install mysqlclient***amd64.whl
+
+5. 
+
+
 
 
 
