@@ -196,7 +196,7 @@ def save_info_feed(url, text, w_id, c_id):
         session.flush()
         return True
     except Exception as e:
-        # print(str(e))
+        print(str(e))
         session.rollback()
         return False
 

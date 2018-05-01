@@ -3,7 +3,11 @@ import sys
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__),".."))
 sys.path.append(BASE_DIR)
 
-from urllib.parse import urlparse
+try:
+    from urllib.parse import urlparse
+except ImportError:
+     from urlparse import urlparse
+
 from utils.blacklist import blacklist_url, blacklist_text
 
 
