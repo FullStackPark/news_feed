@@ -122,6 +122,6 @@ if __name__ == '__main__':
     while True:
         crawalAndSave()
         # 60 *
-        time.sleep(CRAWL_INTERVAL)
+        time.sleep(3*CRAWL_INTERVAL)
         websites = get_websites()
 
